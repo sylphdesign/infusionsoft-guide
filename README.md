@@ -2,7 +2,7 @@
 home: true
 heroImage: images/funnel.png
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /docs/
 features:
 - title: Marketplace
   details: Walk-thru on how to use templates, how to save templates and understand which template works for you best.
