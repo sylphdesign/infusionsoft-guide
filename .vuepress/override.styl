@@ -1,0 +1,54 @@
+// showing default values
+$accentColor = #5d62dc
+$textColor = #6B6C6F
+$borderColor = #EAEDF3
+$codeBgColor = #282c34
+
+body {
+  background #FBFBFD
+}
+
+.theme-container > .page > div.content {
+
+  background white
+  border 1px solid #EAEDF3
+  border-radius 4px
+  box-shadow 0 1px 3px 0 rgba(0, 0, 0, 0.04)
+  margin-top 100px
+}
+
+.content:not(.custom) > h1 {
+  padding-top 1.6rem !important
+}
+
+.navbar {
+  height 70px !important
+  display flex
+  align-items center
+
+  .links {
+    top 1rem;
+  }
+}
+
+.search-box input {
+  border-radius 0
+}
+
+a.sidebar-link:hover, a.sidebar-link.active {
+  background rgba(93, 98, 220, .05)
+}
+
+.sidebar .sidebar-sub-headers {
+  padding-left 0
+}
+
+.sidebar-sub-headers a.sidebar-link {
+  padding-left 3rem
+  padding-top .35rem
+  padding-bottom .35rem
+}
+
+.sidebar-sub-headers a.sidebar-link.active {
+  color #3E3F42
+}
