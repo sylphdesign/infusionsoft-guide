@@ -1,5 +1,5 @@
 module.exports = {
-    // base: 'infusionsoft-guide',
+    base: 'infusionsoft-guide',
     title: 'Landing Page Builder - Guide',
     description: 'Walk-through for the landing page builder',
     themeConfig: {
